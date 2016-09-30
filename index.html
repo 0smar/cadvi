@@ -18,7 +18,7 @@
 
 </head>
 <body>
-	<div class="intro">
+	<div class="intro" id="intro">
 		<div class="opacity-layer">
 			<div class="blur-cont">
 				¿Y tú cómo quieres ver?
@@ -29,10 +29,10 @@
 				</div>
 				<div class="menu">
 					<a href="index.html">Inicio</a>
-					<a href="index.html">Nosotros</a>
-					<a href="index.html">Nuestros Servicios</a>
+					<a href="nosotros.html">Nosotros</a>
+					<a href="index.html#services">Nuestros Servicios</a>
 					<a href="contactologia.html">Contactología Especializada</a>
-					<a href="index.html">Contacto</a>
+					<a href="index.html#location">Contacto</a>
 				</div>
 				<div class="mobile-menu" onclick="openNav()">Menú</div>
 			</div>
@@ -49,10 +49,11 @@
 		</div>
 	</div>
 
-	<div class="services">
+	<div class="services" id="services">
 		<h2 class="high-title">Nuestros Servicios</h2>
 		<div class="cont">
-			<div class="service">
+			<a href="optometria.html" class="service">
+			
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	  viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <g>
@@ -81,8 +82,9 @@
 			    <use xlink:href="img/svg/doctor"></use>
 			  </svg>
 				<h3>Optometría del Desarrollo</h3>
-			</div>
-			<div class="service">
+			
+			</a>
+			<a class="service" href="contactologia.html">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <g sketch:type="MSPage">
 	<g sketch:type="MSArtboardGroup">
@@ -106,8 +108,8 @@
 </svg>
 
 				<h3>Contactología Especializada</h3>
-			</div>
-			<div class="service">
+			</a>
+			<a class="service" href="terapiavisual.html">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <g>
 	<path fill="#064E89" d="M45.348,28h3.373H49v-2h-3.621c2.552,0,4.375-3.586,4.375-6.469c0-3.699-3.009-6.796-6.709-6.796
@@ -163,8 +165,8 @@
 </g>
 </svg>
 				<h3>Terapia Visual</h3>
-			</div>
-			<div class="service">
+			</a>
+			<a class="service" href="pedriatica.html">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path fill="#FFFFFF" d="M12.479,24.098c0,1.564-1.268,2.833-2.833,2.833s-2.833-1.269-2.833-2.833s1.269-2.833,2.833-2.833
 	S12.479,22.534,12.479,24.098"/>
@@ -205,8 +207,8 @@
 
 
 				<h3>Optometría Pediátrica y Geriátrica</h3>
-			</div>
-			<div class="service">
+			</a>
+			<a class="service" href="armazones.html">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <g>
 	<path fill="#064E89" d="M15.914,22.361c0,0,0.665,0.416,1.167-0.085c0.5-0.499,1.333-1.751-0.583-2.748
@@ -230,8 +232,8 @@
 </svg>
 
 				<h3>Armazones de Alta Calidad</h3>
-			</div>
-			<div class="service">
+			</a>
+			<a class="service" href="ortoqueratologia.html">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="482 482 60 60" enable-background="new 482 482 60 60" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M506.439,502.4c-3.363-0.132-6.171,4.124-6.39,9.689c-0.218,5.565,2.246,10.03,5.61,10.162
@@ -260,11 +262,11 @@
 </svg>
 
 				<h3>Ortoqueratología</h3>
-			</div>
+			</a>
 		</div>
 	</div>
 
-	<div class="location">
+	<div class="location" id="location">
 		<h2 class="high-title">Nuestra Ubicación</h2>
 		<div id="map"></div>
 		<div class="contact">
@@ -311,11 +313,11 @@
 
 	  <!-- Overlay content -->
 	  <div class="overlay-content">
-		<a href="index.html">Inicio</a>
+		<a href="index.html#intro">Inicio</a>
 		<a href="index.html">Nosotros</a>
-		<a href="index.html">Nuestros Servicios</a>
+		<a href="index.html#services">Nuestros Servicios</a>
 		<a href="index.html">Contactología Especializada</a>
-		<a href="index.html">Contacto</a>
+		<a href="index.html#location">Contacto</a>
 	  </div>
 
 	</div>
@@ -323,18 +325,18 @@
 <script async defer
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqzjuKiMBBfOz9P47h95e7MACp0XFmD1o&callback=initMap">
     </script>
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 
 <script type="text/javascript">
-
-var map;
-function initMap() {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: -34.397, lng: 150.644},
-    zoom: 8
-  });
-}
-
-    </script>
+	var map;
+	function initMap() {
+	  map = new google.maps.Map(document.getElementById('map'), {
+	    center: {lat: -34.397, lng: 150.644},
+	    zoom: 8
+	  });
+	}
+</script>
 
 </html>
