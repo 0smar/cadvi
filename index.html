@@ -39,7 +39,7 @@
 		</div>
 	</div>
 	<div class="us">
-		<h2 class="high-title">25 años de experiencia nos respaldan</h2>
+		<h2 class="high-title">38 años de experiencia nos respaldan</h2>
 		<div class="text-cont">
 			<p class="right-50">
 				En Centro de Atención y Desarrollo Visual buscamos que logres ver las maravillas que el mundo tiene para ti.
@@ -166,7 +166,7 @@
 </svg>
 				<h3>Terapia Visual</h3>
 			</a>
-			<a class="service" href="pedriatica.html">
+			<a class="service" href="optometriapediatrica.html">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60" enable-background="new 0 0 60 60" xml:space="preserve">
 <path fill="#FFFFFF" d="M12.479,24.098c0,1.564-1.268,2.833-2.833,2.833s-2.833-1.269-2.833-2.833s1.269-2.833,2.833-2.833
 	S12.479,22.534,12.479,24.098"/>
@@ -267,8 +267,9 @@
 	</div>
 
 	<div class="location" id="location">
-		<h2 class="high-title">Nuestra Ubicación</h2>
+		<h2 class="high-title">Nuestras Ubicaciones</h2>
 		<div id="map"></div>
+		<h3>Óptica Sarai</h3>
 		<div class="contact">
 			<div class="info">
 				<img src="img/svg/pin.svg" alt="Ubicación">
@@ -283,6 +284,23 @@
 				<img src="img/svg/tel.svg" alt="Teléfono">
 				<p>
 					8 14 31 08
+				</p>
+			</div>
+		</div>
+		<h3>Óptica Liz</h3>
+		<div class="contact">
+			<div class="info">
+				<img src="img/svg/pin.svg" alt="Ubicación">
+				<p>
+					Zaragoza #310<br>
+					Colonia Centro. <br>
+					San Luis Potosí, SLP.
+				</p>
+			</div>
+			<div class="info">
+				<img src="img/svg/tel.svg" alt="Teléfono">
+				<p>
+					8 14 58 18
 				</p>
 			</div>
 		</div>
@@ -333,8 +351,23 @@
 	var map;
 	function initMap() {
 	  map = new google.maps.Map(document.getElementById('map'), {
-	    center: {lat: -34.397, lng: 150.644},
+	    center: {lat: 22.150196, lng: -100.978548},
 	    zoom: 8
+	  });
+
+	  var marker1 = {lat: 22.150447, lng: -100.981088};
+	  var marker2 = {lat: 22.150096, lng: -100.975715};
+
+	  var marker = new google.maps.Marker({
+	    position: marker1,
+	    map: map,
+	    title: 'Óptica Sarai'
+	  });
+
+	  var markerB = new google.maps.Marker({
+	    position: marker2,
+	    map: map,
+	    title: 'Óptica Sarai'
 	  });
 	}
 </script>
