@@ -42,9 +42,6 @@ html, body{
 	width: 100%;
 	height: 100%;
 	position: relative;
-	display: flex;
-	align-items: center;
-	justify-content: center;
 	background-color: rgba(0,0,0,0.5);
 }
 
@@ -231,6 +228,7 @@ html, body{
 	transition: all 0.5s ease;
 	text-decoration: none;
 	color: #fff;
+	flex-basis: 250px;
 }
 
 .service svg{
@@ -254,6 +252,7 @@ html, body{
 
 .service h3{
 	margin-top: 10px;
+	text-align: center;
 }
 
 #map{
@@ -441,14 +440,19 @@ ul li:before{
 
 .brands{
 	width: 100%;
+	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	text-align: center;
+	align-items: center;
 }
 
 .brands img{
-	width: 20% !important;
+	width: 25% !important;
 	min-width: 100px;
 	margin: 10px;
+	display: inline-block;
+	flex-basis: 100px;
 }
 
 /*- MEDIA QUERIES -*/
@@ -553,4 +557,12 @@ ul li:before{
     .subsection div p{
     	width: 100%;
     }
+
+    .brands img{
+		width: 50% !important;
+		min-width: 100px;
+		margin: 10px;
+		display: inline-block;
+		flex-basis: 100px;
+	}
 }
