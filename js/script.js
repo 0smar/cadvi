@@ -43,7 +43,7 @@ var map;
     var markerB = new google.maps.Marker({
       position: marker2,
       map: map,
-      title: 'Óptica Sarai'
+      title: 'Óptica Liz'
     });
   }
 
