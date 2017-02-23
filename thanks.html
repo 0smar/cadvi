@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Centro de Atención y Desarrollo Visual</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+
+</head>
+<body>
+	<div class="intro" id="intro">
+		<div class="opacity-layer">
+			<div class="center-center" style="color: #fff; position: absolute;width: 300px;height: 600px;display: flex;
+	align-items: center;
+	justify-content: center; font-size: 1.6em;text-align: center;"> 
+				¡Gracias! Pronto nos pondremos en contacto.
+			</div>
+			<div class="nav-bar">
+				<div class="logo">
+					<a href="index.html"><img src="img/svg/logo.svg" alt="Centro de Atención y Desarrollo Visual"></a>
+				</div>
+				<div class="menu">
+					<a href="index.html">Inicio</a>
+					<a href="nosotros.html">Nosotros</a>
+					<a href="index.html#services">Nuestros Servicios</a>
+					<a href="contactologia.html">Contactología Especializada</a>
+					<a href="index.html#location">Contacto</a>
+				</div>
+				<div class="mobile-menu" onclick="openNav()">Menú</div>
+			</div>
+		</div>
+	</div>
+	<div id="myNav" class="overlay">
+	  <!-- Button to close the overlay navigation -->
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+	  <!-- Overlay content -->
+	  <div class="overlay-content">
+		<a href="index.html">Inicio</a>
+		<a href="nosotros.html">Nosotros</a>
+		<a href="index.html#services">Nuestros Servicios</a>
+		<a href="contactologia.html">Contactología Especializada</a>
+		<a href="index.html#location">Contacto</a>
+	  </div>
+
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.center.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

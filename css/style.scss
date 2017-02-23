@@ -455,6 +455,39 @@ ul li:before{
 	flex-basis: 100px;
 }
 
+.contact-form{
+	width: 90%;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-form input, .contact-form textarea{
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	border: 1px solid #1976D2;
+}
+
+.contact-form input[type="submit"]{
+	background-color: #0D47A1;
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.contact-form input[type="submit"]:hover{
+	background-color: #1565C0;
+	color: #fff;
+	cursor: pointer;
+}
+
 /*- MEDIA QUERIES -*/
 
 @media screen and (max-width: 1024px) {

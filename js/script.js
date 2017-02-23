@@ -49,6 +49,7 @@ var map;
 
 $( document ).ready(function() {
     $('.blur-cont').center({ against: 'parent' });
+    $('.center-center').center({ against: 'parent' });
     initMap();
 });
 
